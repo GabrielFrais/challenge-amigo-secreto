@@ -10,5 +10,16 @@ function adicionarAmigo(){
     }else{
         listaAmigos.push(nome);
         nomeInput.value = '';
+        mostrarListaAmigos();
+    }
+}
+
+function mostrarListaAmigos(){
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = "";
+    for (let i = 0; i < listaAmigos.length; i++){
+        const li = document.createElement('li');
+        li.textContent = listaAmigos[i];
+        lista.appendChild(li);
     }
 }
