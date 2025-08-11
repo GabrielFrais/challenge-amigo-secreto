@@ -29,7 +29,7 @@ O objetivo é criar uma aplicação simples em JavaScript que permita **adiciona
 .
 ├── index.html   # Página principal
 ├── style.css    # Estilos da aplicação
-└── script.js    # Lógica de adicionar, listar e sortear
+└── app.js    # Lógica de adicionar, listar e sortear
 ```
 
 ---
